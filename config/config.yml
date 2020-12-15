@@ -1,11 +1,11 @@
 ---
 metadata:
   name: Namaz radost oka moga
-  short_name: BooGi
-  description: BooGi - awesome GitBook-like documentation generator using Gatsby
+  short_name: Namaz
+  description: Jedan od ciljeva pisanja ove knjige jeste pokušaj da se kod ljudi na našim prostorima pobudi želja za obavljanjem namaza i ojača svijest o njegovom mjestu u islamu.
   language: en
   pathPrefix: '/'
-  siteImage: '/assets/slika.png'
+  siteImage: '/assets/slika3.png'
   favicon: '/assets/favicon.png'
   themeColor: '#ff0000'
 header:
