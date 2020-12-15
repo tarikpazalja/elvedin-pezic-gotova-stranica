@@ -50,7 +50,7 @@ const NavigationWrapper = styled(({ className, children }) => {
     </aside>
   );
 })`
-  display: ${(props) => props.show ? 'block' : 'none'};
+  display: ${(props) => (props.show ? 'block' : 'none')};
   height: 100vh;
   top: 0;
   flex: 0 0 ${(props) => props.theme.layout.leftWidth};
