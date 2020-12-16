@@ -9,9 +9,9 @@
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont,  'Roboto', 'Roboto Light',"HamdullahMushaf", 'Segoe UI','Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Roboto Light', 'HamdullahMushaf',
+    'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
   scroll-behavior: smooth;
 }
@@ -91,18 +91,17 @@ img {
 }
 
 .paragraph {
-  font-size: 18px;
   margin: 16px 0;
   line-height: 1.625;
 }
 
 .arapski {
-  font-family: "HamdullahMushaf";
+  font-family: 'HamdullahMushaf';
   font-size: 25px;
   margin: 16px 0;
   line-height: 1.625;
   justify-content: center;
-} 
+}
 
 .gatsby-resp-image-figcaption {
   text-align: center;

@@ -3,6 +3,9 @@ title: 'Greške prilikom uzimanja abdesta'
 order: 3
 ---
 
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 Prije nego što spomenemo nekoliko najbitnijih grešaka
 vezanih za abdest, smatram da je korisno ukazati na vrijednost abdesta kako bismo shvatili o kakvom je ibadetu riječ
 i koliko je bitno da se čovjek potpuno i ispravno abdesti.
@@ -86,14 +89,24 @@ ve sellem, i za čije je učenje obećao veliku nagradu: „Ko se od
 vas abdesti, pa abdest upotpuni, a zatim izgovori: ‘Ešhedu en
 la ilahe illallahu ve enne Muhammeden abdullahi ve resuluhu
 (Svjedočim da nema drugog boga osim Allaha i da je Muhammed Njegov rob i Njegov Poslanik), bit će mu otvoreno
-osam džennetskih vrata da uđe na koja hoće.’“[^210]  
+osam džennetskih vrata da uđe na koja hoće.’“[^210]
 
-<Card className="arapski">أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا عَبْدُ اللهِ وَرَسُولُه</Card>
+<Card className="arapski">
+  أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَنَّ مُحَمَّدًا عَبْدُ اللهِ وَرَسُولُه
+</Card>
+<AudioPlayer
+  src="https://pinecast.com/listen/de5ae056-f504-4d78-a65b-a4b2f2dfb73a.mp3"
+  onPlay={(e) => console.log('onPlay')}
+  layout="horizontal-reverse"
+>
+  {' '}
+</AudioPlayer>
+Imam Tirmizi zabilježio je predaju ovog hadisa u kojoj se spominje dodatak koji se izgovara nakon
+prethodno spomenute dove, a koji glasi:{' '}
 
-Imam Tirmizi zabilježio je predaju ovog hadisa u kojoj se
-spominje dodatak koji se izgovara nakon prethodno spomenute dove, a koji glasi:  
-
-<Card className="arapski">اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ , وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ  </Card>
+<Card className="arapski">
+  اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ , وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ{' '}
+</Card>
 
 „Allahumme-dž’alni minet-tevvabine ve-dže’alni minel-mutetahhirine (Gospodaru moj, učini me od onih koji se mnogo
 kaju i od onih koji se mnogo čiste).“[^211]
@@ -412,8 +425,6 @@ kvare li abdest ili ne, kao što su doticanje spolnog organa, doticanje žene sa
 opet, mislili da ne kvari. Sva ova pitanja podložna su razilaženju i idžtihadu, ali ako bi insan zbog svih ovih stvari uzimao
 abdest, izlazeći na taj način iz razilaženja učenjaka, lijepo bi
 postupio.“[^239]
-
-
 
 [^205]: Hadis bilježi Muslim, br. 244.
 [^206]: Hadis bilježi Buhari, br. 6.954.
