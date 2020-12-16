@@ -73,12 +73,11 @@ module.exports = {
       hitsPerPage: 10,
       showStats: true,
       localSearchEngine: {
-        encode: "icase",
-        tokenize: "strict",
+        encode: 'icase',
+        tokenize: 'strict',
         threshold: 8,
         resolution: 9,
-        depth: 1
-        
+        depth: 1,
       },
       pagination: {
         enabled: true,
@@ -136,7 +135,7 @@ module.exports = {
       enabled: false,
       hideHeader: true,
       hideToc: true,
-      hideSidebar: true
-    }
+      hideSidebar: true,
+    },
   },
 };

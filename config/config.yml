@@ -59,9 +59,8 @@ pwa:
     icon: '/assets/favicon.png'
 
 social:
-  github: https://github.com/filipowm/boogi
-  linkedin: https://www.linkedin.com/in/mateusz-filipowicz-437b4768/
-  twitter: twitter url
+  facebook: https://www.facebook.com/tarik.rikta
+  youtube: https://www.youtube.com/channel/UC6q1XyH9XL0CRjt3Q1SY83w
 
 features:
   darkMode:
