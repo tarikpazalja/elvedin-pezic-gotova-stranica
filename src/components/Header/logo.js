@@ -27,15 +27,18 @@ const logoStyle = (theme) => css`
   }
 
   span {
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
     height: auto;
     font-size: 26px;
     line-height: 1.5;
     color: ${theme.header.font.base};
     ${onTablet} {
-      font-size: 18px;
+      font-size: 20px;
     }
     ${onMobile} {
-      font-size: 16px;
+      font-size: 18px;
+      letter-spacing: 1px;
       flex: initial;
       padding: 0 15px 0 0;
     }
