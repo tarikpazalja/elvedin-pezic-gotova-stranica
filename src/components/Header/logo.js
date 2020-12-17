@@ -32,10 +32,10 @@ const logoStyle = (theme) => css`
     line-height: 1.5;
     color: ${theme.header.font.base};
     ${onTablet} {
-      font-size: 16px;
+      font-size: 18px;
     }
     ${onMobile} {
-      font-size: 12px;
+      font-size: 16px;
       flex: initial;
       padding: 0 15px 0 0;
     }

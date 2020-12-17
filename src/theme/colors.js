@@ -2,8 +2,8 @@ export default {
   blue: '#0066CC',
   blueLight: '#CDDFF5',
   blueDark: '#264D99',
-  //red: '#E40046',
-  red: '#0066CC',
+  //red: '#E40046', boja u darkmodu ovo dole red
+  red: '#fefefe',
   // redLight: "#FCE7EE",
   redLight: '#FAD0DD',
   violet: '#A05EB5',
