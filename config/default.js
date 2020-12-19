@@ -1,9 +1,9 @@
 module.exports = {
   metadata: {
-    name: 'BooGi',
-    short_name: 'BooGi',
+    name: 'Namaz',
+    short_name: 'Namaz',
     description: '',
-    language: 'en',
+    language: 'bs',
     url: 'http://localhost',
     pathPrefix: '/',
     gaTrackingId: null,
@@ -30,8 +30,8 @@ module.exports = {
   pwa: {
     enabled: true, // disabling this will also remove the existing service worker.
     manifest: {
-      name: 'BooGi',
-      short_name: 'BooGi',
+      name: 'Namaz',
+      short_name: 'Namaz',
       start_url: '/',
       background_color: '#6b37bf',
       theme_color: '#6b37bf',
